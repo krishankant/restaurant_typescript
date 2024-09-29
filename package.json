@@ -1,0 +1,22 @@
+{
+  "name": "restaurant-management-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon - watch 'src/**/*.ts' - exec 'ts-node' src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@types/node": "^22.7.4",
+    "nodemon": "^3.1.7",
+    "save-dev": "^0.0.1-security",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
